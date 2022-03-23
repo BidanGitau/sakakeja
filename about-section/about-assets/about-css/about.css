@@ -89,3 +89,36 @@ icon {
   font-size: 25px;
 }
 /* end of About division */
+
+/* Renting division */
+.renting h2 {
+  color: black;
+}
+
+#text-0, #text-1 {
+  color: #A85879;
+}
+#text {
+  color: white;
+}
+
+.card-row{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%;
+}
+.card-row h2 {
+  background: rgba(0, 151, 19, 0.1)
+}
+
+.card-col {
+  opacity: 0.9;
+}
+
+#card-title-3 {
+  padding-top: 22.5%;
+}
+#card-title-2 {
+  padding-top: 4%;
+}
+/* end of Rent division */
