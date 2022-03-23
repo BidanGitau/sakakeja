@@ -1,4 +1,7 @@
 /* Section styles */
+body {
+  text-align: center;
+}
 .body-font {
   font-family: 'Courgette', cursive;
   font-size: 18px;
