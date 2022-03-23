@@ -48,3 +48,41 @@ icon {
       transform: translate3d(0, 200px, 0);
   }
 }
+/* end of Animation effect */
+
+/* About division */
+.about-section {
+  text-align: center;
+  background-image: url(file:///home/benie/Downloads/search-4078405_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-section h2, h3 {
+  color: white;
+}
+#about-tagline {
+  font-size: 25px;
+  padding-top: 13%;
+}
+.about h3 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+#col-about-2 {
+  padding-top: 2.5%;
+  padding-bottom: 1.5%;
+}
+#col-about-2 p {
+  color: #C7E79E;
+}
+#col-about-3 {
+  padding-top: 9.5%;
+  padding-right: 5%;
+}
+
+#call-to-action {
+  font-size: 25px;
+}
+/* end of About division */
