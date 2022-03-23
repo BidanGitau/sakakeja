@@ -1,0 +1,124 @@
+/* Section styles */
+body {
+  text-align: center;
+}
+.body-font {
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+}
+
+/* Bounce icon */
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+  padding-left: 7%;
+  padding-top: 5%;
+}
+/* Animation */
+@keyframes smoothbounce {
+  from { transform: translate3d(0, 0, 0);}
+  to { transform: translate3d(0, 200px, 0);}
+}
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      transform: translate3d(0, 200px, 0);
+  }
+}
+        /* Prefix Support */
+icon {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(
+  .5, 0.05, 1, .5);
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  from {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      -webkit-transform: translate3d(0, 200px, 0);
+      transform: translate3d(0, 200px, 0);
+  }
+}
+/* end of Animation effect */
+
+/* About division */
+.about-section {
+  text-align: center;
+  background-image: url(../about-img/bg/bg_about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-section h2, h3 {
+  color: white;
+}
+#about-tagline {
+  font-size: 25px;
+  padding-top: 13%;
+}
+.about h3 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+#col-about-2 {
+  padding-top: 2.5%;
+  padding-bottom: 1.5%;
+}
+#col-about-2 p {
+  color: #C7E79E;
+}
+#col-about-3 {
+  padding-top: 9.5%;
+  padding-right: 5%;
+}
+
+#call-to-action {
+  font-size: 25px;
+}
+/* end of About division */
+
+/* Renting division */
+.renting h2 {
+  color: black;
+}
+
+#text-0, #text-1 {
+  color: #A85879;
+}
+#text {
+  color: white;
+}
+
+.card-row{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%;
+}
+.card-row h2 {
+  background: rgba(0, 151, 19, 0.1)
+}
+
+.card-col {
+  opacity: 0.9;
+}
+
+#card-title-3 {
+  padding-top: 22.5%;
+}
+#card-title-2 {
+  padding-top: 4%;
+}
+/* end of Rent division */
