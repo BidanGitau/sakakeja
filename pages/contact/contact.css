@@ -5,6 +5,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: poppins;
+    background-color: transparent;
 }
 
 body {
@@ -93,4 +94,9 @@ h5 {
 
 .pro-de {
     color: #000;
+}
+
+particles-js {
+    height: 100%;
+    width: 100%;
 }
