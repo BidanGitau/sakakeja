@@ -8,7 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
     <title>SAKAHAO</title>
 </head>
 
@@ -24,47 +27,84 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-    <div class="hero">
-        <div class="navbar">
-            <img src="./assets/images.jpeg" class="logo">
-            <button type="button">Sign up</button>
-    </div>
-    <div class="content">
-        <small>Welcome to our</small>
-        <h1>Sakahao<br> Beauty Grounds</h1>
-        <button type="button">Take a tour</button>
-    </div>
-    <div class="side-bar">
-        <img src="/sakakeja/assets/pngtree-menu-vector-icon-png-image_470444.jpg" class="menu">
+   <section class="full-page">
 
-        <div class="social-links">
-            <ion-icon class="fb" name="logo-facebook"></ion-icon>
-            <ion-icon class="ig"name="logo-instagram"></ion-icon>
-            
-            
-    </div> 
-    
-    <div class="useful-links">
-        <ion-icon class="share" name="share-social-outline"></ion-icon>
-        <ion-icon class="help" name="help-circle-outline"></ion-icon>
-        
-        
+   
+   <div class="">
+       <div class="navbar">
+           
+   <div>
+   <nav>
+    <ul id="menu items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button class="loginbtn"
+         onclick="document.getElementById('login-form').style.display='block'"
+         style="width: auto;">Login</button>
+     </li>
+    </ul>
+</nav>
+  </div>
+   <div id='login-form'class='login-page'>
+        <div class="form-box">
+            <div class="button-box">
+            <div id="btn"></div>
+            <button
+            type="button"onclick='login()'class='toggle-btn'>Log In</button>
+            <button
+            type="button"onclick='register()'class='toggle-btn'>Register</button>
+   </div>
+   <form id="login" class="input-group-login">
+       <input type="text"class='input-field'placeholder='Email Id'required>
+       <input type="password"class='input-field'placeholder='Enter Password'required>
+       <input type="checkbox"class='check-box'><span>Remember Password</span>
+       <button type="submit"class='submit-btn'>Log in</button>
+   </form>
+   <form id="register" class="input-group-register">
+       <input type="text"class='input-field'placeholder='First Name'required>
+       <input type="text"class='input-field'placeholder='Last Name'required>
+       <input type="email"class='input-field'placeholder='Email Id'required>
+       <input type="password"class='input-field'placeholder='Enter Password'required>
+       <input type="password"class='input-field'placeholder='Confirm Password'required>
+       <input type="checkbox"class='check-box'><span>Iagree to the terms and conditions</span>
+       <button type="submit"class='submit-btn'>Register</button>
+   </form>
+     </div>
 </div>
-
 </div>
-
-<div class="bubbles">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-    <img src="/sakakeja/assets/bubble.png">
-
-</div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    var x=document.getElementById('login');
+    var y=document.getElementById('register');
+    var z=document.getElementById('btn');
+    function register()
+    {
+        x.style.left='-400px';
+        y.style.left='50px';
+        z.style.left='110px'
+    }
+    function login()
+    {
+        x.style.left='50px'
+        y.style.left='450px'
+        z.style.left='0px'
+    }
+</script>
+<script>
+    var modal = document.getElementById('login-form');
+    window.onclick = function(event)
+    {
+        if (event.target == modal)
+        {
+            modal.style.display = "none"
+        }
+    }
+</script>
+</section>
 </body>
+
 
 </html>
