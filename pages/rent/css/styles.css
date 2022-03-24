@@ -1,3 +1,9 @@
+.search{
+    background-color: rgb(136, 136, 211);
+}
+span{
+    color: #fff;
+}
 .roysambu, .karen, .runda{
     display: none;
 }

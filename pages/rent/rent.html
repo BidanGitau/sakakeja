@@ -10,22 +10,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Pick a house to rent</h1>
-        <div class="row">
-            <div class="col-md-2">
-                <h3>Filter</h3>
-                <span>Filter by following:</span>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="location" placeholder="Location">
-                    <label for="floatingInput">Location</label>
+            <div class="row mt-4">
+                <div class="search">
+                    <div class="col-md-6">
+                        <span>Filter by Location:</span>
+                        <div class="form-floating mt-2 mb-3">
+                            <input type="text" class="form-control" id="location" placeholder="Location">
+                            <label for="floatingInput">Location</label>
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <button class="btn btn-outline-warning" id="filter-button">Filter</button>
+                        </div>
+                    </div>
                 </div>
-                <button class="btn btn-outline-success" id="filter-button">Filter</button>
             </div>
-            <div class="col-md-1">
-
-            </div>
+        <div class="row">
             <div class="col-md-9">
-                <h3>Houses Available To Rent</h3>
+                <h3 class="display-result"></h3>
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4 roysambu">
@@ -40,7 +41,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 roysambu">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: Roysambu</h5>
@@ -51,7 +52,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 roysambu">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: Roysambu</h5>
@@ -76,7 +77,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 karen">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: Karen</h5>
@@ -87,7 +88,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 karen">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: Karen</h5>
@@ -112,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 runda">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: Runda</h5>
@@ -123,7 +124,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 runda">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card mt-2" style="width: 15rem;">
                             <img src="./images/house1.jpg" class="card-img-top" alt="House Image.">
                             <div class="card-body">
                                 <h5 class="card-title" class="location">Location: runda</h5>
