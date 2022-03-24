@@ -3,21 +3,22 @@ $(document).ready(function(){
         let filterByLocation = $("#location").val();
         if(filterByLocation.toLowerCase() === "karen"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
-            $(".karen").show();
-            $(".roysambu").hide();
-            $(".runda").hide();
+            // $(".karen").show();
+            $(".karen").fadeIn(3000);
+            $(".roysambu").fadeOut();
+            $(".runda").fadeOut();
         }
         if (filterByLocation.toLowerCase() === "roysambu"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
-            $(".karen").hide();
-            $(".runda").hide()
-            $(".roysambu").show();
+            $(".karen").fadeOut();
+            $(".runda").fadeOut()
+            $(".roysambu").fadeIn(3000);
         }
         if(filterByLocation.toLowerCase() === "runda"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
-            $(".runda").show();
-            $(".karen").hide();
-            $(".roysambu").hide();   
+            $(".runda").fadeIn(3000);
+            $(".karen").fadeOut();
+            $(".roysambu").fadeOut();   
         }
     });
 })
