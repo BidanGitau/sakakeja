@@ -1,6 +1,11 @@
 .search{
     background-color: rgb(136, 136, 211);
 }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: rgb(119, 155, 221);
+}
 span{
     color: #fff;
 }
