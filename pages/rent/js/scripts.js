@@ -3,16 +3,15 @@ $(document).ready(function(){
         let filterByLocation = $("#location").val();
         if(filterByLocation.toLowerCase() === "karen"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
-            // $(".karen").show();
             $(".karen").fadeIn(3000);
             $(".roysambu").fadeOut();
             $(".runda").fadeOut();
         }
         if (filterByLocation.toLowerCase() === "roysambu"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
+            $(".roysambu").fadeIn(3000);
             $(".karen").fadeOut();
             $(".runda").fadeOut()
-            $(".roysambu").fadeIn(3000);
         }
         if(filterByLocation.toLowerCase() === "runda"){
             $(".display-result").text("Showing Results For Houses In " + filterByLocation);
@@ -20,5 +19,5 @@ $(document).ready(function(){
             $(".karen").fadeOut();
             $(".roysambu").fadeOut();   
         }
-    });
+    })
 })
