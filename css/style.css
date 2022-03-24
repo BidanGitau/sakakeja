@@ -48,14 +48,14 @@ nav ul li a
 {
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: sans-serif;
 }
 
 nav ul li button
 {
     font-size: 20px;
-    color: white;
+    color: black;
     outline: none;
     border: none;
     background: transparent;
@@ -98,11 +98,18 @@ a
  .button-box
 {
     width: 220px;
+    display: flex;
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
+
+
+.login-page{
+    text-align: ;
+}
+
 
  .toggle-btn
 {
@@ -206,7 +213,7 @@ span
 
  .full-page
  {
-     background-image: url('/assets/modern.jpeg');
+     background-image: url('../assets/modern.jpeg');
      background-repeat: no-repeat;
      background-size: cover;
      height: 100vh;
