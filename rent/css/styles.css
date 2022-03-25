@@ -1,19 +1,23 @@
-.search{
+.search {
     background-color: rgb(136, 136, 211);
 }
-h1{
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     color: rgb(119, 155, 221);
 }
-span{
+
+span {
     color: #fff;
 }
-.display-result{
+
+.display-result {
     color: rgb(136, 136, 211);
     margin-bottom: 0;
 }
-.quick-access-button > button{
+
+.quick-access-button>button {
     margin-top: 5px;
     width: 100px;
     height: 50px;
@@ -22,9 +26,16 @@ span{
     background-color: rgb(136, 136, 211);
     border-style: none;
 }
-.button1, .button2, .button3{
+
+.button1,
+.button2,
+.button3 {
     display: none;
 }
-.roysambu, .karen, .runda{
+
+.roysambu,
+.karen,
+.runda {
     display: none;
+    height: 60vh;
 }
