@@ -23,7 +23,7 @@ Technologies used are
 </ul>
 
 ## Support and contact details
-For any question or sugggestions you can mail:bidangitau220@gmail.com
+For any question or sugggestions you can mail:sakakeja@gmail.com
 ### License
 MIT License
 
